@@ -1,0 +1,25 @@
+# Release assets are attached only after explicit approval.
+/dist/
+/assets/private/
+*.zip
+*.7z
+*.rar
+*.cia
+*.cci
+*.3ds
+*.cxi
+*.app
+*.fa
+*.xa
+*.xi
+*.xf
+*.tik
+*.cert
+*.keys
+prod.keys
+title.keys
+seeddb.bin
+*.log
+*.tmp
+Thumbs.db
+.DS_Store

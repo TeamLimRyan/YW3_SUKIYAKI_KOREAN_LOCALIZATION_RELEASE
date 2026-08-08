@@ -1,0 +1,27 @@
+{
+  "release_state": "DRAFT_NOT_PUBLISHED",
+  "target": {
+    "title_id": "00040000001AF400",
+    "product_code": "CTR-P-ALZJ",
+    "version": "0.2.0",
+    "region": "J"
+  },
+  "translation": {
+    "completed": 132357,
+    "total": 132357,
+    "qa": "PASS"
+  },
+  "images": {
+    "reviewed": 1817,
+    "pass_included": 1561,
+    "fail_excluded": 256,
+    "roundtrip_failures": 0
+  },
+  "runtime": {
+    "passed": 21,
+    "total": 39,
+    "scope": "pre-final-image-build"
+  },
+  "release_asset": null,
+  "release_ready": false
+}
