@@ -1,5 +1,11 @@
 {
-  "release_state": "DRAFT_NOT_PUBLISHED",
+  "release_state": "READY_TO_PUBLISH",
+  "release": {
+    "version": "v0.1.0",
+    "tag": "v0.1.0",
+    "title": "요괴워치 3 스키야키 한국어 패치 v0.1.0",
+    "repository": "TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE"
+  },
   "target": {
     "title_id": "00040000001AF400",
     "product_code": "CTR-P-ALZJ",
@@ -19,23 +25,29 @@
     "pass_included": 1685,
     "fail_excluded": 132,
     "without_review_result": 44,
-    "remaining_to_final_approval": 176,
+    "future_typesetting_backlog": 176,
+    "future_rework_needed": 132,
+    "future_unreviewed": 44,
     "review_coverage_percent": 97.64,
     "final_approval_percent": 90.54,
-    "roundtrip_failures": 0
+    "roundtrip_failures": 0,
+    "status": "V0.1.0_COMPLETE",
+    "v0_1_0_scope": "FINAL_1685_INCLUDED",
+    "future_expansion_if_additional_typesetting_is_approved": true
   },
   "runtime": {
     "passed": 21,
     "total": 39,
-    "scope": "pre-final-image-build"
+    "scope": "pre-final-image-build",
+    "final_image_build_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
   },
   "release_asset": {
-    "state": "LOCAL_VALIDATED_NOT_UPLOADED",
+    "state": "VALIDATED_READY_TO_UPLOAD",
     "path": "dist/YW3S_Korean_Patch_v0.1.0.zip",
-    "size": 49281771,
-    "sha256": "3AAF4D2EEC1C8084F070CCDB8B02C947A88BEE5399F32C080A23833484925733",
+    "size": 49281760,
+    "sha256": "672EEB78E77AC09CA53935B1B2029FED6F58ECFD920FE296189530FE630A38E8",
     "patched_archive_sha256": "4FE2EB54B759FEE03FB2B6525E8752F734CBBFC59EF4CC1A0C40491307364990",
     "roundtrip_validation": "PASS"
   },
-  "release_ready": false
+  "release_ready": true
 }
