@@ -21,5 +21,7 @@ title.keys
 seeddb.bin
 *.log
 *.tmp
+**/__pycache__/
+*.py[cod]
 Thumbs.db
 .DS_Store

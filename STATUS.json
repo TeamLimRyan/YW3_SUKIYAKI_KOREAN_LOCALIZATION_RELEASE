@@ -12,9 +12,16 @@
     "qa": "PASS"
   },
   "images": {
+    "all_extracted_and_classified": 37737,
+    "localization_targets": 1861,
+    "non_targets": 35876,
     "reviewed": 1817,
-    "pass_included": 1561,
-    "fail_excluded": 256,
+    "pass_included": 1685,
+    "fail_excluded": 132,
+    "without_review_result": 44,
+    "remaining_to_final_approval": 176,
+    "review_coverage_percent": 97.64,
+    "final_approval_percent": 90.54,
     "roundtrip_failures": 0
   },
   "runtime": {
@@ -22,6 +29,13 @@
     "total": 39,
     "scope": "pre-final-image-build"
   },
-  "release_asset": null,
+  "release_asset": {
+    "state": "LOCAL_VALIDATED_NOT_UPLOADED",
+    "path": "dist/YW3S_Korean_Patch_v0.1.0.zip",
+    "size": 49281771,
+    "sha256": "3AAF4D2EEC1C8084F070CCDB8B02C947A88BEE5399F32C080A23833484925733",
+    "patched_archive_sha256": "4FE2EB54B759FEE03FB2B6525E8752F734CBBFC59EF4CC1A0C40491307364990",
+    "roundtrip_validation": "PASS"
+  },
   "release_ready": false
 }
