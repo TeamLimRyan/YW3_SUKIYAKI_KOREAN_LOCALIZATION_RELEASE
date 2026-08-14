@@ -43,7 +43,10 @@
     "name_composition_static_qa": "PASS",
     "quiz_exact_runtime_alias_comparison": "PASS",
     "quiz_stock_japanese_matcher_removed": true,
-    "unit_tests": "26/26 PASS",
+    "quiz_official_name_answer_rows": 26,
+    "quiz_answer_runtime_alias_match": "26/26 PASS",
+    "quiz_answer_translations_corrected": 23,
+    "unit_tests": "28/28 PASS",
     "latest_quiz_runtime_regression": "PENDING"
   },
   "archive": {
@@ -51,7 +54,7 @@
     "replaced_members": 7175,
     "untouched_members": 48905,
     "size": 1823858820,
-    "sha256": "F59FA6AEAA1A37C7D54F796BEAB536E91C86D1E1B909275B0696857214B55B6A",
+    "sha256": "C883D4F3A58DADEEF9EE1BCDFC7FE72BE17EB0922A389A39D89B93ADA7E6FE66",
     "rebuild": "PASS"
   },
   "runtime": {
@@ -64,10 +67,11 @@
     "state": "PUBLISHED_REMOTE_VERIFIED",
     "path": "dist/YW3S_Korean_Patch_v0.2.0.zip",
     "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/download/v0.2.0/YW3S_Korean_Patch_v0.2.0.zip",
-    "asset_id": 513932690,
-    "size": 49590806,
-    "sha256": "8036E6543011A883877EF257DCA5B119D5AC51EF30AADB391E30076C41CA620A",
-    "patched_archive_sha256": "F59FA6AEAA1A37C7D54F796BEAB536E91C86D1E1B909275B0696857214B55B6A",
+    "asset_id": 514469731,
+    "asset_updated_at": "2026-08-14T13:48:45Z",
+    "size": 49591502,
+    "sha256": "B37A3B2868C9AD93CDB3DF366D94F71B8A9608B03110111E1CC5476533792BFC",
+    "patched_archive_sha256": "C883D4F3A58DADEEF9EE1BCDFC7FE72BE17EB0922A389A39D89B93ADA7E6FE66",
     "roundtrip_validation": "PASS",
     "archive_parse_status": "PASS",
     "zip_crc": "PASS",

@@ -16,6 +16,7 @@
 - 텍스트 132,357 / 132,357 번역 및 자동 QA 통과
 - 한글/영문/기호 페이지가 분리된 조합형 한글 이름 입력
 - 한글 키보드 입력과 번역문이 같은 런타임 별칭을 사용할 때 요괴 퀴즈 정답을 직접 비교하도록 수정
+- 요괴 퀴즈 정답 24종을 게임 전체와 같은 공식 한국어명으로 교정하고, 허용 정답 26개를 키보드와 같은 CP932/PUA 별칭으로 검증
 - 기존 이미지 1,685개를 기준으로 식자 제출본 191개 추가 반영
   - 기존 반영 이미지 교체: 184개
   - 기존 제외 이미지 신규 추가: 7개
@@ -37,7 +38,7 @@
 
 CIA, ROM, 키, 펌웨어, 원본 게임 데이터는 제공하지 않습니다. 사용자는 정품 게임을 합법적으로 보유하고 자신의 환경에서 필요한 입력을 준비해야 합니다.
 
-배포 파일은 [GitHub Releases](https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0)의 `YW3S_Korean_Patch_v0.2.0.zip`입니다. 파일 크기는 49,590,806바이트이고 SHA-256은 `8036E6543011A883877EF257DCA5B119D5AC51EF30AADB391E30076C41CA620A`입니다. 사용법은 [설치 안내](INSTALL_KO.md)를 확인해 주세요.
+배포 파일은 [GitHub Releases](https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0)의 `YW3S_Korean_Patch_v0.2.0.zip`입니다. 파일 크기는 49,591,502바이트이고 SHA-256은 `B37A3B2868C9AD93CDB3DF366D94F71B8A9608B03110111E1CC5476533792BFC`입니다. 사용법은 [설치 안내](INSTALL_KO.md)를 확인해 주세요.
 
 ## 무단 추출 및 재배포 금지
 
