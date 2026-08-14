@@ -1,18 +1,21 @@
 {
-  "release_state": "PUBLISHED",
+  "release_state": "LOCAL_RC_READY",
   "release": {
-    "version": "v0.1.0",
-    "tag": "v0.1.0",
-    "title": "요괴워치 3 스키야키 한국어 패치 v0.1.0",
+    "version": "v0.2.0",
+    "planned_tag": "v0.2.0",
+    "planned_title": "요괴워치 3 스키야키 한국어 패치 v0.2.0",
     "repository": "TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE",
-    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.1.0",
-    "published_at": "2026-08-09T13:18:06Z"
+    "published": false,
+    "url": null,
+    "published_at": null
   },
   "target": {
     "title_id": "00040000001AF400",
     "product_code": "CTR-P-ALZJ",
     "version": "0.2.0",
-    "region": "J"
+    "region": "J",
+    "source_archive_size": 1769675476,
+    "source_archive_sha256": "CB5C8C0FFCEEBE2AD0E3901832AAB5CB3D975CF592F0019C076A369560BD779B"
   },
   "translation": {
     "completed": 132357,
@@ -22,34 +25,59 @@
   "images": {
     "all_extracted_and_classified": 37737,
     "localization_targets": 1861,
-    "non_targets": 35876,
-    "reviewed": 1817,
-    "pass_included": 1685,
-    "fail_excluded": 132,
-    "without_review_result": 44,
-    "future_typesetting_backlog": 176,
-    "future_rework_needed": 132,
-    "future_unreviewed": 44,
-    "review_coverage_percent": 97.64,
-    "final_approval_percent": 90.54,
+    "previous_final_included": 1685,
+    "current_typesetter_snapshot": 191,
+    "snapshot_state": "SUBMITTED",
+    "snapshot_replaced_existing": 184,
+    "snapshot_newly_included": 7,
+    "final_distinct_included": 1692,
+    "remaining_original": 169,
+    "included_percent": 90.92,
+    "roundtrip_verified": 191,
     "roundtrip_failures": 0,
-    "status": "V0.1.0_COMPLETE",
-    "v0_1_0_scope": "FINAL_1685_INCLUDED",
-    "future_expansion_if_additional_typesetting_is_approved": true
+    "untouched_inner_members_verified": 3087,
+    "owner_visual_approval": "PENDING"
+  },
+  "korean_input": {
+    "name_composition_static_qa": "PASS",
+    "quiz_exact_runtime_alias_comparison": "PASS",
+    "quiz_stock_japanese_matcher_removed": true,
+    "unit_tests": "26/26 PASS",
+    "latest_quiz_runtime_regression": "PENDING"
+  },
+  "archive": {
+    "members": 56080,
+    "replaced_members": 7175,
+    "untouched_members": 48905,
+    "size": 1823858820,
+    "sha256": "F59FA6AEAA1A37C7D54F796BEAB536E91C86D1E1B909275B0696857214B55B6A",
+    "rebuild": "PASS"
   },
   "runtime": {
-    "passed": 21,
-    "total": 39,
-    "scope": "pre-final-image-build",
-    "final_image_build_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
+    "previous_matrix_passed": 21,
+    "previous_matrix_total": 39,
+    "previous_scope": "pre-latest-image-and-quiz-build",
+    "latest_candidate_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
   },
   "release_asset": {
-    "state": "PUBLISHED",
-    "path": "dist/YW3S_Korean_Patch_v0.1.0.zip",
-    "size": 49281760,
-    "sha256": "672EEB78E77AC09CA53935B1B2029FED6F58ECFD920FE296189530FE630A38E8",
-    "patched_archive_sha256": "4FE2EB54B759FEE03FB2B6525E8752F734CBBFC59EF4CC1A0C40491307364990",
-    "roundtrip_validation": "PASS"
+    "state": "LOCAL_VALIDATED_NOT_UPLOADED",
+    "path": "dist/YW3S_Korean_Patch_v0.2.0.zip",
+    "size": 49590806,
+    "sha256": "8036E6543011A883877EF257DCA5B119D5AC51EF30AADB391E30076C41CA620A",
+    "patched_archive_sha256": "F59FA6AEAA1A37C7D54F796BEAB536E91C86D1E1B909275B0696857214B55B6A",
+    "roundtrip_validation": "PASS",
+    "archive_parse_status": "PASS",
+    "zip_crc": "PASS",
+    "forbidden_entries": 0,
+    "tracked_forbidden_files": 0,
+    "source_game_data_in_git": false
   },
-  "release_ready": true
+  "external_mutations_performed": false,
+  "release_ready": false,
+  "pending_owner_actions": [
+    "식자 제출본 191개 육안 승인",
+    "공개 문서 문구 승인 또는 수정 지시",
+    "릴리스 버전·태그·제목 확정",
+    "커밋·푸시·GitHub Release 업로드 지시"
+  ]
 }

@@ -1,9 +1,9 @@
 # 설치 안내
 
-GitHub Releases에서 `YW3S_Korean_Patch_v0.1.0.zip`을 내려받습니다. 배포 패키지는 다음으로 구성됩니다.
+GitHub Releases에서 `YW3S_Korean_Patch_v0.2.0.zip`을 내려받습니다. 배포 패키지는 다음으로 구성됩니다.
 
 - `apply_patch.bat`: Windows 실행 파일
-- `apply_patch.py`: 표준 라이브러리 기반 적용기
+- `apply_patch.py`: Python 표준 라이브러리 기반 적용기
 - `patch_manifest.json`: 지원 원본·결과·페이로드 지문
 - `payload/`: 원본을 포함하지 않는 압축 변경 데이터
 
@@ -17,12 +17,14 @@ GitHub Releases에서 `YW3S_Korean_Patch_v0.1.0.zip`을 내려받습니다. 배�
 
 ## 지원 지문
 
+- 입력 `yw_a.fa` 크기: `1,769,675,476`바이트
 - 입력 `yw_a.fa` SHA-256: `CB5C8C0FFCEEBE2AD0E3901832AAB5CB3D975CF592F0019C076A369560BD779B`
-- 결과 `yw_a.ko.fa` SHA-256: `4FE2EB54B759FEE03FB2B6525E8752F734CBBFC59EF4CC1A0C40491307364990`
+- 결과 `yw_a.ko.fa` 크기: `1,823,858,820`바이트
+- 결과 `yw_a.ko.fa` SHA-256: `F59FA6AEAA1A37C7D54F796BEAB536E91C86D1E1B909275B0696857214B55B6A`
 
 배포 패치는 다음 원칙을 따릅니다.
 
-1. 사용자가 직접 준비한 지원 버전 원본의 지문을 확인합니다.
+1. 사용자가 직접 준비한 지원 버전 원본의 크기와 SHA-256을 확인합니다.
 2. 원본 전체 파일을 제공하지 않고 변경분만 적용합니다.
 3. 원본 지문이 다르면 파일을 변경하지 않고 중단합니다.
 4. Luma3DS 또는 지원 에뮬레이터의 사용자 데이터 경로에 설치합니다.
