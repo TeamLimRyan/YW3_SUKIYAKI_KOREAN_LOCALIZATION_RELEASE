@@ -41,7 +41,7 @@
 
 CIA, ROM, 키, 펌웨어, 원본 게임 데이터는 제공하지 않습니다. 사용자는 정품 게임을 합법적으로 보유하고 자신의 환경에서 필요한 입력을 준비해야 합니다.
 
-배포 파일은 [GitHub Releases](https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0)의 `YW3S_Korean_Patch_v0.2.0.zip`입니다. 파일 크기는 65,089,135바이트이고 SHA-256은 `02C93EC781810A9461951AF331D9EB2F44AF93F44C0794DF04BCE2CAE3920D29`입니다. 사용법은 [설치 안내](INSTALL_KO.md)를 확인해 주세요.
+배포 파일은 [GitHub Releases](https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0)의 `YW3S_Korean_Patch_v0.2.0.zip`입니다. 파일 크기는 65,089,512바이트이고 SHA-256은 `4DCB2CEE5E219F062F0D10731B5BE63081E2119961EC32282D30C5BA4CA3625A`입니다. 사용법은 [설치 안내](INSTALL_KO.md)를 확인해 주세요.
 
 ## 무단 추출 및 재배포 금지
 
