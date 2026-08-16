@@ -1,13 +1,12 @@
 {
-  "release_state": "PUBLISHED",
+  "release_state": "READY_FOR_PUBLICATION",
   "release": {
-    "version": "v0.2.0",
-    "tag": "v0.2.0",
-    "title": "요괴워치 3 스키야키 한국어 패치 v0.2.0",
+    "version": "v0.2.1",
+    "tag": "v0.2.1",
+    "title": "요괴워치 3 스키야키 한국어 패치 v0.2.1",
     "repository": "TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE",
-    "published": true,
-    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0",
-    "published_at": "2026-08-14T04:37:20Z"
+    "published": false,
+    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.1"
   },
   "target": {
     "title_id": "00040000001AF400",
@@ -21,83 +20,79 @@
     "completed": 132357,
     "total": 132357,
     "qa": "PASS",
-    "portal_current_revisions": 35,
     "portal_submitted_applied": 34,
     "portal_texts_changed": 25,
+    "fullwidth_space_repairs": 17,
     "portal_drafts_excluded": 1
+  },
+  "currency": {
+    "currency_entries": 212,
+    "display_multiplier": 10,
+    "display_unit": "원",
+    "economy_values_changed": false,
+    "non_currency_yen_ideographs_preserved": 4,
+    "qa": "PASS"
   },
   "images": {
     "all_extracted_and_classified": 37737,
     "localization_targets": 1861,
     "previous_final_included": 1685,
-    "current_typesetter_snapshot": 212,
+    "current_typesetter_snapshot": 214,
     "snapshot_state": "SUBMITTED",
     "snapshot_replaced_existing": 205,
-    "snapshot_newly_included": 7,
-    "final_distinct_included": 1692,
-    "remaining_original": 169,
-    "included_percent": 90.92,
-    "roundtrip_verified": 212,
+    "snapshot_newly_included": 9,
+    "final_distinct_included": 1694,
+    "remaining_original": 167,
+    "included_percent": 91.03,
+    "roundtrip_verified": 214,
     "roundtrip_failures": 0,
-    "untouched_inner_members_verified": 3834,
-    "owner_release_decision": "INCLUDE_IN_V0.2.0",
-    "portal_item_state_preserved": true
+    "untouched_inner_members_verified": 4524
   },
   "korean_input": {
+    "standard_jis_cp932_aliases": 2426,
+    "pua_aliases": 0,
     "name_composition_static_qa": "PASS",
-    "quiz_exact_runtime_alias_comparison": "PASS",
-    "quiz_stock_japanese_matcher_removed": true,
-    "quiz_official_name_answer_rows": 26,
+    "quiz_answer_rows": 26,
     "quiz_answer_runtime_alias_match": "26/26 PASS",
-    "quiz_answer_translations_corrected": 23,
     "numeric_password_context": 2076,
     "numeric_password_row": "１２３４５６７８９０",
     "numeric_password_static_qa": "PASS",
-    "unit_tests": "31/31 PASS",
-    "latest_quiz_runtime_regression": "PENDING"
+    "unit_tests": "41/41 PASS"
   },
   "battle_ui": {
-    "critical_archives_checked": 4,
-    "name_table_compression_preserved": true,
-    "non_texture_offsets_sizes_bytes_preserved": true,
-    "static_layout_qa": "PASS",
-    "special_move_and_purification_runtime_regression": "PENDING_SAVE_POINT"
+    "critical_stock_members_checked": 5,
+    "item_selection_stock_member_restored": true,
+    "special_move_and_purification_stock_members_restored": 4,
+    "original_offsets_sizes_bytes_preserved": true,
+    "static_layout_qa": "PASS"
   },
   "archive": {
     "members": 56080,
-    "replaced_members": 7175,
-    "untouched_members": 48905,
-    "size": 1848776044,
-    "sha256": "77C71EF4D9CB153FFE50429A875E869254E2B3D6F9095D9FE879538063468DA7",
+    "replaced_members": 7171,
+    "untouched_members": 48909,
+    "size": 1848782912,
+    "sha256": "C92F9C46E80344597433DE16037565A87C6CB70F642E6EF8A8B00FC9CEBC44F0",
     "rebuild": "PASS"
   },
   "runtime": {
-    "previous_matrix_passed": 21,
-    "previous_matrix_total": 39,
-    "previous_scope": "pre-current-portal-battle-and-password-build",
-    "current_azahar_layeredfs_load": "PASS",
-    "current_azahar_korean_opening_boot": "PASS",
-    "current_direct_battle_and_password_save_point": "NOT_AVAILABLE",
-    "latest_release_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
+    "emulator_executed_for_current_build": false,
+    "reason": "NOT_RUN_BY_USER_INSTRUCTION",
+    "current_build_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
   },
   "release_asset": {
-    "state": "PUBLISHED_REMOTE_VERIFIED",
-    "path": "dist/YW3S_Korean_Patch_v0.2.0.zip",
-    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/download/v0.2.0/YW3S_Korean_Patch_v0.2.0.zip",
-    "asset_id": 516438530,
-    "asset_updated_at": "2026-08-16T04:39:06Z",
-    "size": 65089512,
-    "sha256": "4DCB2CEE5E219F062F0D10731B5BE63081E2119961EC32282D30C5BA4CA3625A",
-    "patched_archive_sha256": "77C71EF4D9CB153FFE50429A875E869254E2B3D6F9095D9FE879538063468DA7",
+    "state": "LOCAL_VERIFIED",
+    "path": "dist/YW3S_Korean_Patch_v0.2.1.zip",
+    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/download/v0.2.1/YW3S_Korean_Patch_v0.2.1.zip",
+    "size": 65299430,
+    "sha256": "3FF6918B26529926A3513ED8D605195F66407B9F248A70AE526024F8E5B9028F",
+    "patched_archive_sha256": "C92F9C46E80344597433DE16037565A87C6CB70F642E6EF8A8B00FC9CEBC44F0",
     "roundtrip_validation": "PASS",
     "archive_parse_status": "PASS",
     "zip_crc": "PASS",
     "forbidden_entries": 0,
-    "tracked_forbidden_files": 0,
-    "remote_redownload_sha256": "PASS",
     "source_game_data_in_git": false
   },
-  "external_mutations_performed": true,
+  "external_mutations_performed": false,
   "release_ready": true,
   "pending_owner_actions": []
 }

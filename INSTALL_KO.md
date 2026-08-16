@@ -1,6 +1,6 @@
 # 설치 안내
 
-GitHub Releases에서 `YW3S_Korean_Patch_v0.2.0.zip`을 내려받습니다. 배포 패키지는 다음으로 구성됩니다.
+GitHub Releases에서 `YW3S_Korean_Patch_v0.2.1.zip`을 내려받습니다. 배포 패키지는 다음으로 구성됩니다.
 
 - `apply_patch.bat`: Windows 실행 파일
 - `apply_patch.py`: Python 표준 라이브러리 기반 적용기
@@ -19,8 +19,8 @@ GitHub Releases에서 `YW3S_Korean_Patch_v0.2.0.zip`을 내려받습니다. 배�
 
 - 입력 `yw_a.fa` 크기: `1,769,675,476`바이트
 - 입력 `yw_a.fa` SHA-256: `CB5C8C0FFCEEBE2AD0E3901832AAB5CB3D975CF592F0019C076A369560BD779B`
-- 결과 `yw_a.ko.fa` 크기: `1,823,858,820`바이트
-- 결과 `yw_a.ko.fa` SHA-256: `C883D4F3A58DADEEF9EE1BCDFC7FE72BE17EB0922A389A39D89B93ADA7E6FE66`
+- 결과 `yw_a.ko.fa` 크기: `1,848,782,912`바이트
+- 결과 `yw_a.ko.fa` SHA-256: `C92F9C46E80344597433DE16037565A87C6CB70F642E6EF8A8B00FC9CEBC44F0`
 
 배포 패치는 다음 원칙을 따릅니다.
 
