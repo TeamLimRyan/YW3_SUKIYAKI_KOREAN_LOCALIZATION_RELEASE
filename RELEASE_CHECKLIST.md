@@ -26,9 +26,9 @@
 ## GitHub 공개
 
 - [x] 활성 GitHub 계정이 `TeamLimRyan`인지 확인했다.
-- [ ] 문서와 체크섬 변경을 커밋하고 `main`에 푸시한다.
-- [ ] 새 태그 `v0.2.1`과 GitHub Release를 만든다.
-- [ ] 검증된 `YW3S_Korean_Patch_v0.2.1.zip`만 업로드한다.
-- [ ] 원격 자산을 다시 내려받아 크기·SHA-256·ZIP CRC를 확인한다.
+- [x] 문서와 체크섬 변경을 커밋하고 `main`에 푸시했다.
+- [x] 새 태그 `v0.2.1`과 GitHub Release를 만들었다.
+- [x] 검증된 `YW3S_Korean_Patch_v0.2.1.zip`만 업로드했다.
+- [x] 원격 자산을 다시 내려받아 크기·SHA-256·ZIP CRC를 확인했다.
 
-릴리스 예정 주소: https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.1
+릴리스: https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.1

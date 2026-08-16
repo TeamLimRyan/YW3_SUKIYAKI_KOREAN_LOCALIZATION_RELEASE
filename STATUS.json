@@ -1,12 +1,14 @@
 {
-  "release_state": "READY_FOR_PUBLICATION",
+  "release_state": "PUBLISHED",
   "release": {
     "version": "v0.2.1",
     "tag": "v0.2.1",
     "title": "요괴워치 3 스키야키 한국어 패치 v0.2.1",
     "repository": "TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE",
-    "published": false,
-    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.1"
+    "published": true,
+    "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.1",
+    "published_at": "2026-08-16T12:20:20Z",
+    "release_id": 371317708
   },
   "target": {
     "title_id": "00040000001AF400",
@@ -80,9 +82,11 @@
     "current_build_full_runtime_qa": "NOT_COMPLETED_DISCLOSED_LIMITATION"
   },
   "release_asset": {
-    "state": "LOCAL_VERIFIED",
+    "state": "PUBLISHED_REMOTE_VERIFIED",
     "path": "dist/YW3S_Korean_Patch_v0.2.1.zip",
     "url": "https://github.com/TeamLimRyan/YW3_SUKIYAKI_KOREAN_LOCALIZATION_RELEASE/releases/download/v0.2.1/YW3S_Korean_Patch_v0.2.1.zip",
+    "asset_id": 516786071,
+    "asset_updated_at": "2026-08-16T12:20:19Z",
     "size": 65299430,
     "sha256": "3FF6918B26529926A3513ED8D605195F66407B9F248A70AE526024F8E5B9028F",
     "patched_archive_sha256": "C92F9C46E80344597433DE16037565A87C6CB70F642E6EF8A8B00FC9CEBC44F0",
@@ -90,9 +94,11 @@
     "archive_parse_status": "PASS",
     "zip_crc": "PASS",
     "forbidden_entries": 0,
+    "remote_redownload_sha256": "PASS",
+    "remote_redownload_zip_crc": "PASS",
     "source_game_data_in_git": false
   },
-  "external_mutations_performed": false,
+  "external_mutations_performed": true,
   "release_ready": true,
   "pending_owner_actions": []
 }
