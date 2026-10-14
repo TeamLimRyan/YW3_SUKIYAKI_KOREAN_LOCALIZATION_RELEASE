@@ -1,4 +1,4 @@
-# 요괴워치3 스키야키 한국어 패치 v0.9
+# 요괴워치3 스키야키 한국어 패치 v1.0
 
 ## 무단 추출 및 재배포 금지
 
@@ -21,10 +21,10 @@ CIA, ROM, 키, 펌웨어, 원본 게임 데이터는 포함하지 않습니다.
 | 역할 | 파일 | 바이트 | SHA-256 |
 |---|---|---:|---|
 | base 원본 | Youkai Watch 3 - Sukiyaki (Japan)-decrypted.cci | 3270860800 | d98a9430f3edc0b25fc1a4e0d147d0b976db1b0bdce8e042c50f0e84a738f4d8 |
-| base 패치 | YW3_Sukiyaki_KO_base_v0.9.xdelta | 76474858 | 365c6bb4c70d8cabfc4f94ae7692da1676eee359548d92e491d164c496e2869b |
-| base 결과 | YW3_Sukiyaki_KO_base.cci | 3278712832 | d0dc26b3e00c14bc322e5b02ac26a5d08996f50c92d2f2ad2abdb426cf402f2e |
+| base 패치 | YW3_Sukiyaki_KO_base_v1.0.xdelta | 76459565 | b1cdc077367c198f13b34fd60330fc7f8972f8f175f3a53159093cb6807623c4 |
+| base 결과 | YW3_Sukiyaki_KO_base.cci | 3278712832 | 905b326fd6949054ac64dc5db9bbb6ef90510c5da824fc197dc8a8a69f0cdb34 |
 | update 원본 | Youkai Watch 3 - Sukiyaki Update v4.0 (Japan) (Patch)-decrypted.cia | 196408320 | 95d5e28eb4920a68bfc3c0ae407a308ddc06a11ab229da3d28cfa4976af58082 |
-| update 패치 | YW3_Sukiyaki_KO_update_v0.9.xdelta | 12287076 | e25a443c6b98f9558429299588ee35ef88158a81b3739a8431e0ffbcbdb98847 |
+| update 패치 | YW3_Sukiyaki_KO_update_v1.0.xdelta | 12287076 | e25a443c6b98f9558429299588ee35ef88158a81b3739a8431e0ffbcbdb98847 |
 | update 결과 | YW3_Sukiyaki_KO_update4.cia | 196301824 | 73adda215b3c929cca7cb0d544b686957ca7c4e2d354a77d9f342924d7a35453 |
 
 manifest.json에도 같은 파일 크기와 SHA-256이 있습니다. SHA256SUMS.txt는 그 파일 자체를 제외한 패키지 전체 파일의 SHA-256 목록입니다.
@@ -43,9 +43,9 @@ manifest.json에도 같은 파일 크기와 SHA-256이 있습니다. SHA256SUMS.
 
 직접 명령줄로 적용할 때도 **전후 SHA-256 확인이 필수**입니다.
 
-    xdelta3 -d -s "Youkai Watch 3 - Sukiyaki (Japan)-decrypted.cci" "YW3_Sukiyaki_KO_base_v0.9.xdelta" "YW3_Sukiyaki_KO_base.cci"
+    xdelta3 -d -s "Youkai Watch 3 - Sukiyaki (Japan)-decrypted.cci" "YW3_Sukiyaki_KO_base_v1.0.xdelta" "YW3_Sukiyaki_KO_base.cci"
 
-    xdelta3 -d -s "Youkai Watch 3 - Sukiyaki Update v4.0 (Japan) (Patch)-decrypted.cia" "YW3_Sukiyaki_KO_update_v0.9.xdelta" "YW3_Sukiyaki_KO_update4.cia"
+    xdelta3 -d -s "Youkai Watch 3 - Sukiyaki Update v4.0 (Japan) (Patch)-decrypted.cia" "YW3_Sukiyaki_KO_update_v1.0.xdelta" "YW3_Sukiyaki_KO_update4.cia"
 
 Windows xdelta UI 또는 Delta Patcher에서는 원본(Source/Original file), 해당 역할의 패치(Patch), 새 결과(Output)를 각각 선택해 두 번 적용합니다. GUI 자체는 이번 작업에서 실행 검증하지 않았습니다. 표준 VCDIFF 스트림이며 응용 헤더·추가 압축·신형 armor를 사용하지 않습니다. GUI가 거부하면 위 공식 CLI를 사용합니다.
 PowerShell의 Get-FileHash -LiteralPath "파일 경로" -Algorithm SHA256으로 표와 대조하십시오. xdelta 창 체크섬은 참조하지 않은 원본 영역의 변화를 놓칠 수 있어 명령 성공만으로 전체 원본 일치를 판단하면 안 됩니다. 체크섬 오류를 무시하는 옵션은 사용하지 마십시오.
@@ -69,6 +69,10 @@ Azahar 포터블에서는 OpenGL 렌더러를 사용하고, 생성한 Update CIA
 한국어 이미지 2,076개의 발생 위치 2,157곳을 포함한 빌드 재디코드 검증에서 기대 픽셀 불일치는 0입니다. 기대 픽셀은 원본 픽셀 형식으로 변환한 결과이며 PNG 원본과의 무손실 일치를 뜻하지 않습니다. 같은 별명 검사 코드의 한글·영문 별명 저장·재로드 2건은 유지됨을 확인했습니다. 전체 플레이 경로와 모든 장면을 관찰했다는 뜻은 아닙니다.
 
 패키지 원본·완성 게임 파일, 키·세이브·토큰·개인 경로 검사는 발견 0건입니다. 패치 추가 데이터와 원본의 4KiB 중복 표본 검사도 발견 0건입니다. 짧거나 정렬이 다른 원본 유래 바이트가 전혀 없다는 증명은 아닙니다.
+
+## 감사의 말씀
+
+한글패치 제작과 번역·식자 작업에 도움을 주신 **[요괴대장]님과 [아케]님**께 진심으로 감사드립니다.
 
 ## 권리와 문의
 
